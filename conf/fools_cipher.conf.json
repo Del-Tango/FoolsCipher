@@ -1,0 +1,19 @@
+{
+    "config_file": "./conf/blue_cipher.conf.json",
+    "current_dir": ".",
+    "report_file": "./fc_report.dump",
+    "running_mode": "encrypt",
+    "data_source": "file",
+    "keycode": "123456",
+    "cleanup": [
+        "keytext_file"
+    ],
+    "full_cleanup": [
+        "keytext_file",
+        "cleartext_file",
+        "ciphertext_file",
+        "report_file"
+    ],
+    "report": true,
+    "silent": false
+}
