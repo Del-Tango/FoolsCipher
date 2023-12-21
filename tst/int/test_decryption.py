@@ -23,7 +23,6 @@ def test_file_base_decryption_from_cli(fc_setup_teardown, fc_decryption_cmd,
         '--key-code', CONFIG['keycode'],
         '--ciphertext-file', CONFIG['ciphertext_file'],
         '--cleartext-file', CONFIG['cleartext_file'],
-        '--keytext-dir', CONFIG['keytext_dir']
     ]
     write2file(
         *decryption_data, file_path=CONFIG['ciphertext_file'], mode='w'
@@ -46,7 +45,6 @@ def test_file_base_decryption_from_cli_silently(fc_setup_teardown, fc_decryption
         '--key-code', CONFIG['keycode'],
         '--ciphertext-file', CONFIG['ciphertext_file'],
         '--cleartext-file', CONFIG['cleartext_file'],
-        '--keytext-dir', CONFIG['keytext_dir'],
         '--silent'
     ]
     write2file(
@@ -70,7 +68,6 @@ def test_file_base_decryption_from_cli_reported(fc_setup_teardown, fc_decryption
         '--key-code', CONFIG['keycode'],
         '--ciphertext-file', CONFIG['ciphertext_file'],
         '--cleartext-file', CONFIG['cleartext_file'],
-        '--keytext-dir', CONFIG['keytext_dir'],
         '--silent'
     ]
     write2file(

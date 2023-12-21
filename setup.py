@@ -55,7 +55,7 @@ if __name__ == '__main__':
             'Source': 'https://github.com/Del-Tango/FoolsCipher',
             'Tracker': 'https://github.com/Del-Tango/FoolsCipher/issues',
         },
-        'description': 'Book cipher automation',
+        'description': 'Cipher automation',
         'long_description': readme_content,
         'long_description_content_type': 'text/markdown',
         'license': 'BSD',

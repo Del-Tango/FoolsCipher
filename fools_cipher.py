@@ -11,7 +11,7 @@ import optparse
 import os
 import json
 import string
-#import pysnooper
+import pysnooper
 
 SCRIPT_NAME = 'FoolsCipher'
 VERSION = '1.0'
@@ -293,7 +293,7 @@ def encrypt_cleartext(*data, **context) -> list:
     ciphertext, failures = [], 0
     for line in data:
         encrypted_cipher = []
-        line_lst = [item for item in line.split(';') if item]
+        line_lst = [item for item in line.rstrip('\n').split(';') if item]
         for item in line_lst:
             if item not in cleartext_cache:
                 encrypted_cipher.append(item)

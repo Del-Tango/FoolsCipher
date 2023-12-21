@@ -33,11 +33,11 @@ CONFIG = {
 
 @pytest.fixture
 def decryption_data():
-    return ['1-1-1,1-2-1,1-3-1,2-1-1,\n', '1-1-3,1-1-12,1-2-3,1-2-12,\n']
+    return ['aA_12!@#_saZ_\n', 'aA_12!@#_saZ_\n']
 
 @pytest.fixture
 def encryption_data():
-    return ['cccc\n', 'aaaa\n']
+    return ['0;104;53;54;62;77;141;18;0;129\n', '0;104;53;54;62;77;141;18;0;129\n']
 
 @pytest.fixture
 def conf_json():

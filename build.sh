@@ -25,7 +25,7 @@ DISTRIBUTION_DIR='./dist'
 VENV_DIR='./.venv'
 CONF_DIR='./conf'
 REQUIREMENTS_FILE='./requirements.txt'
-PACKAGE_NAME='bluecipher'
+PACKAGE_NAME='foolscipher'
 BUILD_DIRS=('_build/' "${DISTRIBUTION_DIR}" "${PACKAGE_NAME}.egg-info/" "${PACKAGE_NAME}")
 PARENT_DIR="$(basename "$(dirname "$(realpath ./setup.py)")")"
 
