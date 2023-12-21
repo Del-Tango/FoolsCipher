@@ -4,9 +4,6 @@
 #
 # Fools Cipher Enryptor/Decryptor
 
-# [ DESCRIPTION ]: Just Another Substitution Cipher, YAWN... Not quite!
-#   Ehh, you'll figure it out, maybe. Probably not.
-
 import optparse
 import os
 import json
